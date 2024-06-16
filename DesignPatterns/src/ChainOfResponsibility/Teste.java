@@ -22,8 +22,8 @@ public class Teste {
 
         VendaCarroService venda = new VendaCarroService();
 
-        //System.out.println(venda.calcularValorVenda(carroChevrolet));
-        //System.out.println(venda.calcularValorVenda(carroFiat));
+        System.out.println(venda.calcularValorVenda(carroChevrolet));
+        System.out.println(venda.calcularValorVenda(carroFiat));
         System.out.println(venda.calcularValorVenda(carroFord));
 
     }
